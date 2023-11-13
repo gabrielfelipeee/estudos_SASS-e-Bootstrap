@@ -3,9 +3,13 @@
   box-sizing: border-box;
 }
 
+body, html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
 nav {
   padding: 25px;
-  border: 1px solid red;
 }
 nav ul {
   display: flex;
@@ -20,4 +24,33 @@ nav ul a {
 }
 nav ul a:hover {
   border-bottom: 2px solid #74959A;
+}
+
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  max-height: 500px;
+}
+.banner .inner-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F1E0AC;
+  opacity: 0.8;
+  border-radius: 15px;
+  padding: 48px;
+  font-weight: 700;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #495371;
+  margin-bottom: 8px;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #74959A;
 }/*# sourceMappingURL=style.css.map */
