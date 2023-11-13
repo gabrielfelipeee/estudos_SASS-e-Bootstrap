@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 25px;
+  border: 1px solid red;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+nav ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font: normal bold 16px "Roboto", sans-serif;
+  color: #495371;
+}
+nav ul a:hover {
+  border-bottom: 2px solid #74959A;
+}/*# sourceMappingURL=style.css.map */

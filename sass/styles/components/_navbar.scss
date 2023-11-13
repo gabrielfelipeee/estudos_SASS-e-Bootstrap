@@ -1,0 +1,24 @@
+@import '../abstract/variaveis';
+
+
+nav {
+    padding: 25px;
+    border: 1px solid red;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font: normal bold 16px $font ;
+            color: $primary-color;
+
+            &:hover {
+                border-bottom: 2px solid $secondary-color;
+            }
+        }
+    }
+}
