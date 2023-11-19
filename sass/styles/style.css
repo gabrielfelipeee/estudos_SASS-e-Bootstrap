@@ -53,4 +53,43 @@ nav ul a:hover {
 .banner .inner-banner h2 {
   font-size: 1.5rem;
   color: #74959A;
+}
+
+.services h3 {
+  font-size: 2rem;
+  color: #74959A;
+  text-align: center;
+  margin: 25px 0 10px 0;
+}
+.services h4 {
+  font-size: 1.5rem;
+  color: #495371;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.services .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 32px;
+}
+.services .cards .card .img-container {
+  border-bottom: 2px solid #74959A;
+  padding-bottom: 2px;
+}
+.services .cards .card .img-container img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+.services .cards .card h5 {
+  font-size: 1.5rem;
+  color: #74959A;
+  margin: 10px 0;
+}
+.services .cards .card p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #495371;
+  max-width: 548px;
+  margin-bottom: 80px;
 }/*# sourceMappingURL=style.css.map */
