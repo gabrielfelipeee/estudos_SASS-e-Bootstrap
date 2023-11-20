@@ -92,4 +92,55 @@ nav ul a:hover {
   color: #495371;
   max-width: 548px;
   margin-bottom: 80px;
+}
+
+.coupon {
+  background-color: #F1E0AC;
+  max-width: 50%;
+  padding: 50px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
+}
+.coupon .text {
+  color: #495371;
+  text-align: center;
+}
+.coupon .text h2 {
+  font-size: 2rem;
+}
+.coupon .inscription .input {
+  max-width: 544px;
+  margin: 32px auto;
+}
+.coupon .inscription .input input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.coupon .inscription .input input:hover, .coupon .inscription .input input:focus {
+  box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+}
+.coupon .inscription button {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #495371;
+  color: #F1E0AC;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.coupon .inscription button:hover {
+  background-color: #74959A;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
