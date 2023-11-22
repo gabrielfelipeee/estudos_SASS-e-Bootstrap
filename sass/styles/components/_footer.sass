@@ -1,0 +1,16 @@
+@import ../abstract/variaveis.scss
+
+// Essa função pode receber uma ou mais cores 
+@mixin bg-colors($colors...)
+    background: linear-gradient(to left, $colors)
+
+
+footer
+    font-size: $default-font-size / 2
+    text-align: center
+    color: $tertiary-color
+    padding: 32px 0
+    @include bg-colors($secondary-color, $primary-color)
+
+    i
+        color: red

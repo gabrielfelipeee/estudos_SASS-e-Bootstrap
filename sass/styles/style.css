@@ -143,4 +143,40 @@ nav ul a:hover {
 .coupon .inscription button:hover {
   background-color: #74959A;
   transition: 0.5s;
+}
+
+footer {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #F1E0AC;
+  padding: 32px 0;
+  background: linear-gradient(to left, #74959A, #495371);
+}
+footer i {
+  color: red;
+}
+
+.publicity {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 2rem;
+}
+.publicity .text {
+  color: #495371;
+  line-height: 1.2rem;
+}
+.publicity .text h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.publicity .text h4 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+.publicity .text p {
+  font-size: 1rem;
+  max-width: 550px;
 }/*# sourceMappingURL=style.css.map */
