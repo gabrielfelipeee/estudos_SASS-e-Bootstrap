@@ -18,17 +18,21 @@ const Form = ({ onSubmit }: { onSubmit: (userData: IUser) => void }) => {
             onSubmit={safeSubmit}
             className="flex flex-col justify-center items-center gap-10 w-full mt-64 px-8"
         >
-            <Input
+            <input
+                className="alura-input"
                 type="text"
                 placeholder="Insira seu nome"
+                required
             />
-            <Input
+            <input
+                className="alura-input"
                 type="email"
                 placeholder="Insira seu email"
+                required
             />
             <button
                 type="submit"
-                className="px-8 py-2 bg-alura-100 dark:bg-dark-200 rounded-full font-bold text-gray-200 uppercase hover:animate-pulse hover:shadow-md hover:shadow-gray-500"
+                className="btn"
             >
                 Seguir
             </button>
